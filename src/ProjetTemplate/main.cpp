@@ -61,7 +61,7 @@ int main()
         for (int j = 0; j < 5; j++)
         {
             bricks.push_back(sf::RectangleShape(sf::Vector2f(40, 10)));
-            bricks[i + j].setPosition(sf::Vector2f(150, 100))
+            bricks[i + j].setPosition(sf::Vector2f(150, 100));
         }
     }
 
