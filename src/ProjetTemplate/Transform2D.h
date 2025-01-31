@@ -8,4 +8,7 @@ public:
 	void SetPosition();
 	float GetPosition();
 	void SetScale();
+	float GetScale();
+	void SetRotation();
+	float GetRotation();
 };

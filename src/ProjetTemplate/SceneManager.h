@@ -5,10 +5,15 @@ class Scene;
 
 class SceneManager
 {
-	std::vector<Scene*> scene;
-	Scene* currentScene;
+	std::vector<Scene*> mScenes;
+	Scene* mCurrentScene;
 public :
-	void SetScene();
+	SceneManager(Scene* scene);
+	
+	void AddScene(Scene* newScene);
+
+	void SetCurrentScene(Scene* newCurrentScene);
+
 	Scene* GetCurrentScene();
 };
 

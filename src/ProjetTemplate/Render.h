@@ -4,7 +4,5 @@
 
 class Render : public Component, public sf::Drawable
 {
-
-
 };
 
