@@ -1,13 +1,14 @@
 #pragma once
-#include "Scene.h"
+#include <vector>
+
+class Scene;
 
 class SceneManager
 {
-	std::vector<Scene*> mScenes;
-	Scene* mCurrentScene;
-public:
-	void SetCurrentScene(Scene* newCurrentScene);
-
+	std::vector<Scene*> scene;
+	Scene* currentScene;
+public :
+	void SetScene();
 	Scene* GetCurrentScene();
 };
 

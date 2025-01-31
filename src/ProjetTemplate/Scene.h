@@ -1,14 +1,9 @@
 #pragma once
-#include "SFML/Graphics.hpp"
-#include "Entity.h"
-#include <vector>
+#include <SFML/Graphics.hpp>
 
 class Scene : public sf::Drawable
 {
-	std::vector<Entity*> mEntities;
-public:
-	void Update();
+public : 
 
-	void Draw();
 };
 

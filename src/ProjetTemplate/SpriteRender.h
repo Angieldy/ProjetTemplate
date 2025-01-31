@@ -3,5 +3,6 @@
 
 class SpriteRender : public Render
 {
+
 };
 
