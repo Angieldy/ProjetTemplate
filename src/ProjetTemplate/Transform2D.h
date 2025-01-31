@@ -6,6 +6,6 @@ class Transform2D : public Component, public sf::Transformable
 {
 public:
 	void SetPosition();
-	float GetPosition();
+	void GetPosition();
 	void SetScale();
 };
