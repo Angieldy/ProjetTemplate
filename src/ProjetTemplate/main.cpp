@@ -98,10 +98,7 @@ int main()
                 {
                     x1 += 20.f;
                 }
-
-            }
-
-           
+            }         
 
             plateforme.setPosition(x1, y1);
         }
